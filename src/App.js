@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import First from './component/first';
+import Second from './component/second';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
       </header>
       <First/>
+      <Second/>
       <h1>테스트입니다. </h1>
     </div>
   );
